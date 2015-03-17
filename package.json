@@ -1,0 +1,30 @@
+{
+  "name": "enormous",
+  "version": "0.0.5",
+  "description": "A node client for the Enormous realtime service",
+  "main": "enormous.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enormous-io/enormous-node-client"
+  },
+  "keywords": [
+    "enormous",
+    "realtime",
+    "channels",
+    "sockets"
+  ],
+  "author": "Chris Cheshire <chris@enormous.io> (http://enormous.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enormous-io/enormous-node-client/issues"
+  },
+  "homepage": "http://enormous.io",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.47.0",
+    "underscore": "^1.7.0"
+  }
+}
